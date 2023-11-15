@@ -1,0 +1,33 @@
+.nav{
+    background-color: white;
+    align-self: flex-start;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 2rem;
+    align-items: center;
+}
+
+.nav>div>img{
+    height: 40px;
+}
+
+.title{
+    font-weight: 700;
+    color: rgb(0, 84, 0);
+}
+
+.about{
+    font-size: .8rem;
+    border: 1px solid black;
+    padding: .2rem .4rem;
+    border-radius: .4rem;
+    transition: all 0.2s;
+}
+
+.about:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(50, 65, 0);
+}

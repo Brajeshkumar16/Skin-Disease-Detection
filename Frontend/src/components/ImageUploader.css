@@ -1,0 +1,39 @@
+.container>input{
+    color: whitesmoke;
+    padding: 1rem 2rem;
+    border: 1px solid green;
+    /* background-color: rgba(0, 181, 0, 0.412); */
+    background-color: rgba(216, 216, 216, 0.651);
+    border-radius: .3rem;
+    font-size: 1.1rem;
+}
+
+.image>h2{
+    color: white;
+}
+
+.image>img{
+    border-radius: 1rem;
+    width:400px;
+    height:300px;
+    object-fit:cover;
+}
+
+.scanBtn{
+    padding: 1rem;
+    border-radius: .3rem;
+    outline: none;
+    border: none;
+    background-color: rgba(4, 226, 4, 0.419);
+    color: white;
+    width: 200px;
+    cursor: pointer;
+}
+
+.scanBtn:hover{
+    background-color: green;
+}
+
+.captured{
+    color: white;
+}
